@@ -1,0 +1,269 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="818.4,3357.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="804.8,3292.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="OutputDownloaded" />
+      <Variable x:TypeArguments="x:String" Name="varDownloadFolder" />
+      <Variable x:TypeArguments="x:String" Name="varOutputFileName" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment DisplayName="Assignment Requirements" sap:VirtualizedContainerService.HintSize="761.6,536.8" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Assignment 4: Image Background Remover Bot&#xA;&#xA;Objective&#xA;&#xA;Build a bot which loops through photos in a folder then removes the background of the image using an online AI tool https://www.remove.bg/. The new photos must then be saved in a separate folder. You can download some sample photos in the resources section of this lecture, the file is called &quot;before.zip&quot;.&#xA;&#xA;Instructions&#xA;&#xA;- Create a before and after folder in your project's folder. Populate the before folder with the images in the attached zip file.&#xA;&#xA;- Open the browser with an Open Browser activity and maximise the browser window with a Maximise Window activity.&#xA;&#xA;- Create a FileList variable of type Object Array and assign its value to the &quot;Before&quot; directory files.&#xA;&#xA;- Use a For Each activity to loop through each file i.e. object in the object array.&#xA;&#xA;- Click the Upload Image button in the browser. The Click activity must be within the body of the For Each loop. Tweak the selector accordingly.&#xA;&#xA;- Use an Attach Window activity to attach to the Save As window.&#xA;&#xA;- In the 'File name' field, use a Type Into to type the full path of the file then use a Click activity to click the 'Open' button. Ensure these activities happen in the background.&#xA;&#xA;- Add a Click activity outside and after the Attach Window activity to download the file to your downloads folder on your PC.&#xA;&#xA;- Use a Move File activity to move the downloaded image from your downloads file to the 'After' folder. Note these folder and file paths will need to be dynamic, so use string manipulation where necessary.&#xA;&#xA;- Ensure that the Move File activity won't start until the file is confirmed to have been downloaded. You can use a static delay of 5 seconds for this and add that after the download Click and before the Move File activity. However, if you're up for the challenge try create a dynamic wait by using these four activities; While, Path Exists, Assign and If.&#xA;&#xA;- Use a Click activity to click on the x which will remove the uploaded file in the browser after each run. Add this click after the Move File activity.&#xA;&#xA;- Close the browser using a Close Application activity." />
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Always" DisplayName="Visit www.remove.bg/upload" sap:VirtualizedContainerService.HintSize="761.6,2626.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Background" OpenMode="Always" ScopeGuid="4c74d32c-f467-4bab-8229-f40f1ef543fd" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="728,2409.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachFileX DisplayName="Iterate each image in the 'Before' folder" Filter="*.jpg" Folder="Before" sap:VirtualizedContainerService.HintSize="684.8,2316.8" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+              <ui:ForEachFileX.Body>
+                <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                  <ActivityAction.Argument1>
+                    <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+                  </ActivityAction.Argument1>
+                  <ActivityAction.Argument2>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument2>
+                  <Sequence sap:VirtualizedContainerService.HintSize="651.2,2050.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Upload original image, download the output image and save it to the 'After' folder" sap:VirtualizedContainerService.HintSize="608,1957.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload Image' button to upload the original image" sap:VirtualizedContainerService.HintSize="545.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4c74d32c-f467-4bab-8229-f40f1ef543fd" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.remove.bg/upload" DesignTimeRectangle="810, 488, 318, 80" DesignTimeScaleFactor="1.3799999952316284" ElementType="Button" FriendlyName="'Upload Image'" FullSelectorArgument="&lt;webctrl parentid='page-content' tag='BUTTON' aaname='Upload Image' innertext='Upload Image' parentclass='flex flex-col justify-center items-center gap-6 mx-1 sm:mx-6 py-2' type='button' visibleinnertext='Upload Image' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='page-content' tag='BUTTON' aaname='Upload Image' innertext='Upload Image' parentclass='flex flex-col justify-center items-center gap-6 mx-1 sm:mx-6 py-2' type='button' visibleinnertext='Upload Image' class='!border !border-transparent rounded-full font-bold transition ease-in-out text-center font-body no-underline hover:no-underline inline-flex items-center justify-center text-2xl px-8 py-2.5 text-white !bg-primary hover:!bg-primary-hover active:!bg-primary-hover active:scale-[0.98] focus:outline-none focus-visible:outline-none focus:ring-none focus-visible:ring focus-visible:ring-offset-2 focus-visible:ring-primary-hover' check:text='Upload Image' /&gt;" Guid="e01bb3fd-58c9-4388-a469-e33b56ef3a91" ImageBase64="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" InformativeScreenshot="503503d98a1ca555cfce55905ac27d83.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Upload Image – remove.bg' /&gt;" SearchSteps="Selector, Image" Version="V2" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach the file selection pop-up window" sap:VirtualizedContainerService.HintSize="545.6,52.8" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="eec319cec6da2d25572d99e2e9d99dd5" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;">
+                        <ui:WindowScope.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376.8,392.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Enter the full path of the current file to the 'File name' field" sap:VirtualizedContainerService.HintSize="333.6,156" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="[CurrentFile.FullName]">
+                                <ui:TypeInto.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="66c09927-19cd-4ad5-8316-64a27f246878" InformativeScreenshot="ad2aa7ad7cf14383f33b601de4829d84" Selector="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:TypeInto.Target>
+                              </ui:TypeInto>
+                              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Open' button" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                <ui:Click.CursorPosition>
+                                  <ui:CursorPosition Position="Center">
+                                    <ui:CursorPosition.OffsetX>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:CursorPosition.OffsetX>
+                                    <ui:CursorPosition.OffsetY>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:CursorPosition.OffsetY>
+                                  </ui:CursorPosition>
+                                </ui:Click.CursorPosition>
+                                <ui:Click.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="05d153f8-ef3e-4626-bb8a-5cc63b1bad07" InformativeScreenshot="ac0a0f60c618f9a883956fb3d9c7aeda" Selector="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:Click.Target>
+                              </ui:Click>
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:WindowScope.Body>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:WindowScope>
+                      <Delay DisplayName="Wait for 5 seconds to allow for the image processing to complete" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="545.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click the 'Download' button to download the output image" sap:VirtualizedContainerService.HintSize="545.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4c74d32c-f467-4bab-8229-f40f1ef543fd" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.remove.bg/upload" DesignTimeRectangle="1252, 594, 308, 61" DesignTimeScaleFactor="1.3799999952316284" ElementType="Button" FriendlyName="'Download'" FullSelectorArgument="&lt;webctrl aaname='Download' parentid='page-content' tag='BUTTON' type='button' parentclass='flex flex-col items-center gap-1' visibleinnertext='Download' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Download' parentid='page-content' tag='BUTTON' type='button' parentclass='flex flex-col items-center gap-1' visibleinnertext='Download' class='!border !border-transparent rounded-full font-bold transition ease-in-out text-center font-body no-underline hover:no-underline inline-flex items-center justify-center text-base px-6 h-11 text-white !bg-primary hover:!bg-primary-hover active:!bg-primary-hover active:scale-[0.98] w-full focus:outline-none focus-visible:outline-none focus:ring-none focus-visible:ring focus-visible:ring-offset-2 focus-visible:ring-primary-hover' check:text='Download' /&gt;" Guid="3ac77108-96f9-4888-a043-604ecc8764c7" ImageBase64="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" InformativeScreenshot="91bdfc703ea24fd2b0ec348999e5255c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Upload Image*' /&gt;" SearchSteps="Selector, Image" Version="V2" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <Assign DisplayName="Specify the Download Folder path" sap:VirtualizedContainerService.HintSize="545.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_5">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[varDownloadFolder]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">C:\Users\Meeno\Downloads\</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <Assign DisplayName="Get the file name of the output image" sap:VirtualizedContainerService.HintSize="545.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_6">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[varOutputFileName]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[CurrentFile.Name.split("."c)(0) + "-removebg-preview.png"]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <Sequence DisplayName="Verify the existence of the output image in the Output Folder before moving it to the 'After' folder" sap:VirtualizedContainerService.HintSize="545.6,583.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:FileExistsX DisplayName="Check if the output image file has been downloaded in the Download Folder" Exists="[OutputDownloaded]" sap:VirtualizedContainerService.HintSize="483.2,134.4" sap2010:WorkflowViewState.IdRef="FileExistsX_3" Path="[varDownloadFolder + varOutputFileName]" />
+                        <While DisplayName="If the output image file hasn't been fully downloaded" sap:VirtualizedContainerService.HintSize="483.2,293.6" sap2010:WorkflowViewState.IdRef="While_1">
+                          <While.Condition>
+                            <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="OutputDownloaded = False" />
+                          </While.Condition>
+                          <ui:FileExistsX DisplayName="Keep checking the output image's existence until it's confirmed to be fully downloaded" Exists="[OutputDownloaded]" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="FileExistsX_4" Path="[varDownloadFolder + varOutputFileName]" />
+                        </While>
+                      </Sequence>
+                      <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="After" DisplayName="Move the output image to the 'After' folder" sap:VirtualizedContainerService.HintSize="545.6,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[varDownloadFolder + varOutputFileName]" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click the 'Delete' button to remove the uploaded image in the browser" sap:VirtualizedContainerService.HintSize="545.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4c74d32c-f467-4bab-8229-f40f1ef543fd" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.remove.bg/upload" DesignTimeRectangle="1836, 940, 61, 61" DesignTimeScaleFactor="1.3799999952316284" ElementType="Icon" FriendlyName="'Delete selected'" FullSelectorArgument="&lt;webctrl aaname='Delete selected' parentid='footer' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Delete selected' parentid='footer' tag='BUTTON' type='button' class='!border !border-transparent font-bold text-base  transition ease-in-out text-center font-body no-underline hover:no-underline inline-flex items-center justify-center w-11 h-11 rounded-full hover:!text-brand-typo active:!text-brand-typo active:scale-[0.98] focus:outline-none focus-visible:outline-none focus:ring-none focus-visible:ring focus-visible:ring-offset-2 focus-visible:ring-primary-hover' check:text='Delete selected' /&gt;" Guid="b016cfbc-f1a7-4c5c-b84d-5c8d210ef6da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHuSURBVHhe7dlPi0FRHMbxeXM2IhShbCwtrOyUjaRsrWykvAgvQomNspR/oWxkid88v+MkQlPmnlNjnk+dxT3XPXPPd9B050tIGAEYARgBGAEYARgBGAEYARgBGAEYARgBGAEYARgBGAEYARgBvEc4nU4ym81kNBpdx3w+l+PxaF/hn9cI4/FY0um0hEKhh5HNZmUymdhX+uUtwnQ6lXA4bDacSCSkVCpdhx7rfCQSMe8K37xFKJfLZqOtVuvhra/HzWbTnK9Wq3bWH28RUqmU2eRqtbIz9/R7Qs9nMhk740+gEWq1mtmIq9FoNOxPClagESqVytObD2q4+qg4+Tis12tz0/F43M68R6/XdXQ9lxgBGAG8Rlgul9LtdqXX69mZCz3WeT1/6yMj9Pt9M18sFu3MhR7rvJ6/xQjACMAIwAjACMAIwAjACMAI8JER/tWfzZvNxtx8LBazM+/R63UdXc8lJxHO57N5aPqb3+JisTDXR6NRs55LTiKoer1uNqGf9+FwePd/hp/GYDCQQqFgrnf1SO2Wswjb7fb6KP3dkUwmZbfb2RXdcRZB7fd7abfbksvlnm7y1cjn89LpdORwONiV3HIa4a9gBGAEYARgBGAEYARgBGAEYARgBGAEYARgBGAEYARgBGAEYAQR+QYTrtKaapChAAAAAABJRU5ErkJggg==" InformativeScreenshot="eb1d30d117e94d32260d29932a074b5a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Upload Image*' /&gt;" SearchSteps="Selector, Image" Version="V2" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                    </Sequence>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachFileX.Body>
+            </ui:ForEachFileX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEGSURBVDhPzZK5bgJBEET5stGyM8ti/wAERhvZHIHlgDOziEjszJGP3yDlkBD4f5ATULmrh9OLhIDABE/q7aouzfRsBlODS7jmgG+Dn7GH9UGPsB8wE8Q8HxqMPgN0alZhPR95TT07M9uA1eDwI0CrYnF7EyG0HtbsUaNn90QasJwYjL8C1B9kMO+HomgfDRKNHno5swlYyEf/LYv7O4c4F8G6dAB71OihlzOpgF49xEs7RKXkkI/9EGHNHjV6UgHrKzTKFknRoftk8SrmauIU1uxRoyd1BWW1xMF7gKYsLCk4PD9ahTV71A4uccP6GeXJuPF21Sq6/aPP+Bcxn/4jncF/Bxj8AqEmwyYoJwbEAAAAAElFTkSuQmCC" InformativeScreenshot="c396f2ad70dbda28712f90e148d2e80b.jpg" Selector="&lt;html app='chrome.exe' title='Upload Image – remove.bg' /&gt;" Title="Upload Image – remove.bg" Url="https://www.remove.bg/upload" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
