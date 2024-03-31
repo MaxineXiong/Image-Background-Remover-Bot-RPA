@@ -30,7 +30,9 @@ Build a bot which **loops through photos in a folder then removes the background
 
 _You can check out the **automation demo video for the solution** below_:
 
-https://github.com/MaxineXiong/IP-Address-to-Location-Converter-Bot-RPA/assets/55864839/b592bed2-0693-49b0-9077-341dd070a549
+https://github.com/MaxineXiong/Image-Background-Remover-Bot-RPA/assets/55864839/1579df74-9563-49fd-9ce6-86bf2d0d5e4b
+
+
 
 
 
